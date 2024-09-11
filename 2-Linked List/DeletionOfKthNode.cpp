@@ -62,7 +62,7 @@ Node *deleteKthNode(Node *head, int k)
     {
         return deleteHead(head);
     }
-    Node* temp=head;
+    Node* temp=head;  // this creates the copy of head because if any changes is made to head then it may cause abnormal behaviour 
     // now we need to traverse just before   the node which we want to delete 
     for(int i=0;i<k-1 && temp!=nullptr;i++){
             temp=temp->next;
