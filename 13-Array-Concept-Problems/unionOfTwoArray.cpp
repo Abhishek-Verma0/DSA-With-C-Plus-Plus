@@ -67,9 +67,9 @@ void twoUnion(vector<int> &arr, vector<int> &vec, int n, int m)
 
     //  Display the result
     cout << "After union of both arrays :: ";
-    for (auto &i : temp)
+    for (auto &it : temp)
     {
-        cout << i << " ";
+        cout << it << " ";
     }
     cout << endl;
 }
